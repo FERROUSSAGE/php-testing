@@ -1,0 +1,165 @@
+*, *:after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body a, body a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.header h3 {
+  font-size: 16px;
+}
+
+.header span {
+  font-size: 24px;
+}
+
+.content {
+  margin: 10px 0 0 0;
+  background-color: rgba(128, 128, 128, 0.5);
+  position: relative;
+}
+
+.content .answer {
+  padding: 5px 20px;
+}
+
+.content .count_result {
+  padding: 15px;
+  border: 1px dotted white;
+}
+
+.content .count_result p {
+  padding: 2.5px 0;
+}
+
+.content-output {
+  padding: 15px 20px;
+}
+
+.content-output .question-result {
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content-output .question-result .ok-answer {
+  color: lightgreen;
+  font-weight: 900;
+}
+
+.content-output .question-result .error-answer {
+  color: rgba(255, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+.content-output .question-result.error {
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.content-output .output-question {
+  display: none;
+}
+
+.content .question {
+  padding: 10px 10px 5px 10px;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
+.content-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-title .pagination {
+  padding: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-title .pagination a {
+  margin: 10px 5px 0 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background: white;
+  color: #222;
+  -webkit-transition: background ease-in .2s;
+  transition: background ease-in .2s;
+}
+
+.content-title .pagination a:hover {
+  background: lightseagreen;
+}
+
+.content-title .pagination .nav-active {
+  border: 4px solid lightseagreen;
+  cursor: default;
+}
+
+.content-title .pagination .nav-active:hover {
+  background: white;
+}
+
+button.btn {
+  display: block;
+  margin: 10px auto 10px;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  text-align: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 6px 12px;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: all ease-in .3s;
+  transition: all ease-in .3s;
+}
+
+button.btn:hover {
+  -webkit-box-shadow: 0 0 2px #aaa;
+          box-shadow: 0 0 2px #aaa;
+}
+
+.none {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
